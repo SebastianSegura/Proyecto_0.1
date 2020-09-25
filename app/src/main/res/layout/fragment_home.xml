@@ -26,7 +26,7 @@
         android:id="@+id/txthome"
         android:layout_width="105dp"
         android:layout_height="48dp"
-        android:text="Aca hay mangas"
+        android:text="aca hay mangas se supone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
