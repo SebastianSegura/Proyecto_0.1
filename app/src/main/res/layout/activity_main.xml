@@ -10,7 +10,7 @@
         android:id="@+id/titulo"
         android:layout_width="133dp"
         android:layout_height="42dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="40dp"
         android:text="ENTRA A MANGA PRIME"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,11 +20,11 @@
         android:id="@+id/emaillog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="116dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
@@ -43,7 +43,7 @@
     <Button
         android:id="@+id/btenviar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="120dp"
         android:onClick="sendMain"
         android:text="ENTRAR"
@@ -62,10 +62,10 @@
         android:text="Email"
         app:layout_constraintBottom_toTopOf="@+id/emaillog"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <TextView
         android:id="@+id/textView3"
